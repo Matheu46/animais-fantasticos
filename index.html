@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animais Fantásticos</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        document.documentElement.className += ' js';
+    </script>
 </head>
 <body>
     <nav class="menu">
@@ -17,7 +20,7 @@
     </nav>
     <section class="grid-section animais" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
-        <ul class="animais-lista">
+        <ul class="animais-lista js-tabmenu">
             <li>
                 <img src="img/imagem1.jpg" alt="">
             </li>
@@ -37,7 +40,7 @@
                 <img src="img/imagem6.jpg" alt="">
             </li>
         </ul>
-        <div class="animais-descricao">
+        <div class="animais-descricao js-tabcontent">
             <section>
                 <h2 class="animais">Raposa</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic cum at nihil fugit totam repellendus, error
